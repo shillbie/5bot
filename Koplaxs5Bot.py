@@ -6,23 +6,23 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="EnKX709Zt757Zbx0kfhb.VQTBchP8LxZ1o0Ed5rS4AW.amSk1xOSoz4QOlHWh15iR/+Eh+qyQLOx9w71yM6DyCE=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="EnRFr3L6ZHLQSV6lqoX1.wOe3+tIdNxRJik2Eaf7nOq.rxkKP8g8cSzecqJZSMpnb/P9I+n1Ft4PqDuENqDV13Q=")
+ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(token="EnFGJhQIzGRLu3ABqdjb.j0tevqX/kt6xRCOKoax7sW.LY24ZLysjzXtvdu6subSv14gq2+ELCt77EzbwS/GmHU=")
+kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(token="EnvpxuWXIHrVMoHvDOR6.PARWLiQ1yX8Ge7Tqgg1FbG.R+o8oYWwh48lUVNqRKQYtTPqgfVPxOKI1MY+rfcjXm4=")
+kc.login(qr=True)
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(token="Enw2MlfEFy2OsDRUswhc.64p7hMq5ZbXymY+T0gu3Na.z3T79If9T7OTiReUyMYX4XpiSzYENk6LeGJbX/1hc7M=")
+ks.login(qr=True)
 ks.loginResult()
 
 print "login success plak"
@@ -104,7 +104,7 @@ Ready:
 
 
 Minat? Silahkan PM!
-Idline: http://line.me/ti/p/~hanavy1992""",
+Idline: http://line.me/ti/p/~ri_her""",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":False,
