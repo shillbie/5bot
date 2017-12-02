@@ -6,23 +6,23 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token="En7i3yq9isq8VCQifhC9.Eh+xAjKRse5Gp+veh562Mq.WsY+MJjhqjLhHTnvkj9APkW23YofiovaxxAdNpqukGI=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True)
+ki.login(token="Enc7K1ZI45liLNwyNH9a.ofPkasavZhLKD4OwvrsSMG.2TOm5qIV6onAGOdFBY6XYAtK5P5N/QpulveFHdHAUFg=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(qr=True)
+kk.login(token="EnnSHmYpHySL6WL3Nk0a.+swELSmclJDdUyMkvoatAG.6fnOsrfZecfxE6CC90AqLFkHab520BDa2Gu81EApjxA=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(qr=True)
+kc.login(token="Enwe0lvbi5TffjrMQn9d.qcJOSgzQEpbuah+2LTD5Bq.G7FB4mBpmkfyfsWY5tL815Mo+kFbXimxcA1QGr/43Xw=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(qr=True)
+ks.login(token="EnHWtIlv0xeXz1Kda6F0.B7g9A1RW8NU9Ui7lAHrOWa.2CawV42x/Np9OOwH9SwJur2HvQv6FOs+/1NF7BToPjM=")
 ks.loginResult()
 
 print "login success plak"
